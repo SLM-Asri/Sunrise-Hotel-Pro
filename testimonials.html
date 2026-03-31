@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sunrise Hotel — Testimonials</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="images/Logo.jpg" alt="Sunrise Hotel logo" class="logo">
+      <h1>Sunrise Hotel</h1>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms & Facilities</a></li>
+        <li><a href="dining.html">Dining & Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="testimonials">
+      <h2>Guest Testimonials</h2>
+
+      <article class="testimonial">
+        <h3>Jane Doe</h3>
+        <time>Sep 27, 2025</time>
+        <p>"We had a wonderful stay — friendly staff and clean rooms."</p>
+        <video controls width="480" preload="metadata" aria-label="Testimonial video by Jane Doe">
+          <source src="images/testimonial-video.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video><br>
+        <audio controls aria-label="Audio testimonial by Jane Doe">
+          <source src="images/testimonial-audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="checkbox">
+          <label><input type="checkbox" name="enjoyed1"> Did you enjoy your stay with us?</label>
+        </div>
+      </article>
+<br>
+      <article class="testimonial">
+        <h3>John Smith</h3>
+        <time >Sep 27, 2025</time>
+        <p>"Perfect location and great service — highly recommended."</p>
+        
+        <video controls width="480" aria-label="Testimonial video by John Smith">
+          <source src="images/testimonial-video1.mp4" type="video/mp4">
+        </video><br>
+        <audio controls aria-label="Audio testimonial by Jane Doe">
+          <source src="images/testimonial-audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div class="checkbox">
+          <label><input type="checkbox" name="enjoyed2"> Did you enjoy your stay with us?</label>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+
+    <div class="footer-contact">
+      <br>
+      <address>
+        Sunrise Hotel<br>
+        123 colombo, Sri Lanka<br>
+        Phone: +94 76 896 7587<br>
+        Email: <a href="mohammadasri553@gmail.com">mohammadasri553@gmail.com</a>
+      </address>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100076570625854&mibextid=ZbWKwL" aria-label="Sunrise Hotel on Facebook">Facebook</a> |
+        <a href="https://www.instagram.com/mhdasri553?igsh=b245bXV5a212cms3" aria-label="Sunrise Hotel on Instagram">Instagram</a> |
+        <a href="https://wa.me/+94768967587?text=Hii+SLM(•ิ‿•ิ)Asri" aria-label="Sunrise Hotel on Twitter">WhatsApp</a>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <br>
+      <h3>Subscribe to Newsletter</h3>
+      <form id="newsletter-form">
+        <label for="newsletter-email" class="sr-only">Email</label>
+        <input id="newsletter-email" type="email" name="email" placeholder="Your email" required>
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+
+    <div class="footer-contactform">
+      <br>
+      <h3>Quick Contact</h3>
+      <form id="quick-contact">
+        <label for="q-name" class="sr-only">Name</label>
+        <input id="q-name" name="name" type="text" placeholder="Name" required>
+        <label for="q-email" class="sr-only">Email</label>
+        <input id="q-email" name="email" type="email" placeholder="Email" required>
+        <label for="q-subject" class="sr-only">Subject</label>
+        <input id="q-subject" name="subject" type="text" placeholder="Subject" required>
+        <label for="q-message" class="sr-only">Message</label>
+        <textarea id="q-message" name="message" placeholder="Message" rows="3" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+
+    <p class="copyright">©<span id="year"></span> Sunrise Hotel</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
