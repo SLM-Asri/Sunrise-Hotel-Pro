@@ -1,5 +1,10 @@
 🌅 Sunrise Hotel
 
+
+“A modern hotel website built with HTML, CSS, and JavaScript.”
+
+
+
 Sunrise Hotel is a front‑end web project built with HTML, CSS, and JavaScript. It showcases a modern hotel website design with interactive features, responsive layouts, and a clean user experience. The project is ideal for demonstrating core web development skills and can be extended into a full hotel management system.
 
 ✨ Features
