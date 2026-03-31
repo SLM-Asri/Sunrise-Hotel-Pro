@@ -12,20 +12,20 @@
 ✨ Features
     Elegant homepage with hotel branding
     
-    Interactive navigation and responsive design
-    
-    Contact form for inquiries
-    
-    Room showcase with images and descriptions
-    
-    Smooth animations and transitions using JavaScript
+  Interactive navigation and responsive design
+  
+  Contact form for inquiries
+  
+  Room showcase with images and descriptions
+  
+  Smooth animations and transitions using JavaScript
 
 🛠️ Tech Stack
     HTML – structure and content
     
-    CSS – styling and responsive layouts
-    
-    JavaScript – interactivity and dynamic behavior
+  CSS – styling and responsive layouts
+  
+  JavaScript – interactivity and dynamic behavior
 
 🎯 Purpose
   The goal of Sunrise Hotel is to provide a professional, visually appealing hotel website that highlights services and makes it 
